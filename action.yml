@@ -17,4 +17,4 @@ runs:
   entrypoint: sh
   args:
   - -c
-  - cfn-guard validate --data ${{ inputs.files }} --rules ${{ inputs.rules }}
+  - /cfn-guard validate --data ${{ inputs.files }} --rules ${{ inputs.rules }}
